@@ -72,9 +72,9 @@ public class Main {
                     double i = interview * 0.3;
                     double rata2 = (w + c + i) / 3;
                     if(rata2 >= 85){
-                        JOptionPane.showMessageDialog(frame, "DITERIMA! Selamat " + nama + " " + Nim + ", Anda diterima sebagai [Divisi].");
+                        JOptionPane.showMessageDialog(frame, "DITERIMA! Selamat " + nama + " " + Nim + ", Anda diterima sebagai Android Developer.");
                     } else{
-                        JOptionPane.showMessageDialog(frame, "TIDAK DITERIMA! Maaf " + nama + " " + Nim + ", Anda tidak diterima sebagai [Divisi].");
+                        JOptionPane.showMessageDialog(frame, "TIDAK DITERIMA! Maaf " + nama + " " + Nim + ", Anda tidak diterima sebagai Android Developer.");
                     }
                 }
                 if (radioWeb.isSelected()) {
@@ -83,9 +83,9 @@ public class Main {
                     double i = interview * 0.25;
                     double rata2 = (w + c + i) / 3;
                     if(rata2 >= 85){
-                        JOptionPane.showMessageDialog(frame, "DITERIMA! Selamat " + nama + " " + Nim + ", Anda diterima sebagai [Divisi].");
+                        JOptionPane.showMessageDialog(frame, "DITERIMA! Selamat " + nama + " " + Nim + ", Anda diterima sebagai Web Developer.");
                     } else{
-                        JOptionPane.showMessageDialog(frame, "TIDAK DITERIMA! Maaf " + nama + " " + Nim + ", Anda tidak diterima sebagai [Divisi].");
+                        JOptionPane.showMessageDialog(frame, "TIDAK DITERIMA! Maaf " + nama + " " + Nim + ", Anda tidak diterima sebagai Web Developer.");
                     }
                 }
 
